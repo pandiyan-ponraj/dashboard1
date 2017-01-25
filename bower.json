@@ -1,0 +1,22 @@
+{
+  "name": "dashboard1",
+  "description": "admin dashboard",
+  "main": "index.js",
+  "authors": [
+    "MAPS info"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/pandiyan-ponraj/dashboard1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dev",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1"
+  }
+}
