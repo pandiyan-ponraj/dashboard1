@@ -2,14 +2,14 @@ module.exports = function(grunt){
 	grunt.initConfig({
 		concat: {
 			options: {
-				seperator : ";"
+				seperator : "\n\n"
 			},
 			css:{
-				src : ['dev/bootstrap/dist/css/bootstrap.min.css', 'dev/bootstrap/dist/css/bootstrap-theme.min.css'],
+				src : ['dev/angular-material/angular-material.min.css','dev/bootstrap/dist/css/bootstrap.min.css', 'dev/bootstrap/dist/css/bootstrap-theme.min.css','dev/css/*.css'],
 				dest : 'build/css/main.css'
 			},
 			js:{
-				src : ['dev/bootstrap/dist/js/bootstrap.min.js'],
+				src : ['dev/angular/angular.min.js', 'dev/angular-animate/angular-animate.min.js', 'dev/angular-aria/angular-aria.min.js','dev/angular-messages/angular-messages.min.js', 'dev/angular-material/angular-material.min.js','dev/jquery/dist/jquery.min.js','dev/bootstrap/dist/js/bootstrap.min.js', 'dev/js/*.js'],
 				dest: 'build/js/main.js'
 			}
 		},
