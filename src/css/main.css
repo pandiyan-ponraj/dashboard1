@@ -1,0 +1,27 @@
+body{
+	background: #f1f3fa;
+}
+.app-navbar-fixed{
+	padding-top: 70px;
+}
+#app {
+    height: auto;
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+.horizontal-menu{
+	background-color: #E1E6F4;
+  	box-shadow: 0 0 4px rgba(21, 31, 57, 0.4);
+}
+.navbar-default{
+	background-image:none;
+	border-radius:0;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+/*Table styles*/
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
